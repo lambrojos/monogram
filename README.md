@@ -37,7 +37,7 @@ You could write your route handler something like this:
 And so?
 ------
 
-This will allow clients to query your api in this way
+This will allow clients to query your api in this way:
 
 (In this example query parameters are not URLencoded for clarity)
 
@@ -91,14 +91,13 @@ the previous example could be rewritten as:
 
 ```
 
-Then the previous query will compile like this
+Then the previous query will compile like this:
 
 
 ```javascript
 GET /api/user?age=>-1^12 => { age : {$gte : 1, $lt : 12}} 
 
 ```
-
 
 How much can I combine those operators?
 ---------------------------------------
@@ -108,9 +107,9 @@ Compiled objects can't be more than two levels deep.
 You can read the grammar specification (the parser.jison file), 
 and you can load it [here](https://zaach.github.io/jison/try/) and play around.
 
-If you don't like grammar files you can take a look at the tests in the spec/ folder
-If you don't like tests, well, I don't like you and _you should leave now_.
+If you don't like grammar files you can take a look at the tests in the spec/ folder.
 
+If you don't like tests, well, I don't like you and _you should leave now_.
 
 
 Is this a real project?

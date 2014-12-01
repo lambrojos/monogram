@@ -55,7 +55,7 @@ Get all user whose age is not 36
 
 GET /api/user?age=>36|12 => { age: { $or : [ 36, 12 ]  }  }
 
-Get users aged more than 36 or aged exactly 12
+Get users aged 36 or 12
 
 
 GET /api/user?age=>-1^12 => { age : {$gte : -1, $lt : 12}} 

@@ -2,7 +2,7 @@ What is this?
 -------------
 
 It's a compiler that compiles strings written in a simple grammar into mongo db query parameter objects.
-Its intended use is to augment nodejs REST APIs, allowing clients easily add filters to their queries.
+Its intended use is to augment nodejs REST APIs, allowing clients to easily add filters to their queries.
 
 
 How can I use it?

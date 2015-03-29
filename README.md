@@ -1,6 +1,10 @@
 What is this?
 -------------
 
+Generally speaking it's a proof of concept in using formal grammars in APIs, to implement a custom DSL.
+
+It's worth to take note that once you learn bison implementing stuff like this is really trivial
+
 It's a compiler that compiles strings written in a simple grammar into mongo db query parameter objects.
 Its intended use is to augment nodejs REST APIs, allowing clients to easily add filters to their queries.
 
